@@ -1,3 +1,5 @@
+# Native CMakeLists.txt for the Q library
+# This file is part of the Q library, a C++ library for building
 ###############################################################################
 #  Copyright (c) 2016-2023 Joel de Guzman. All rights reserved.
 #
