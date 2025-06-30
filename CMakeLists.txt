@@ -7,6 +7,12 @@
 ###############################################################################
 cmake_minimum_required(VERSION 3.16.0)
 
+# À placer tout en haut de q/CMakeLists.txt, avant 'option(...)'
+set(Q_BUILD_IO       OFF CACHE BOOL "" FORCE)
+set(Q_BUILD_TEST     OFF CACHE BOOL "" FORCE)
+set(Q_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
+
+
 project(q)
 
 set(CMAKE_CXX_STANDARD 20)
